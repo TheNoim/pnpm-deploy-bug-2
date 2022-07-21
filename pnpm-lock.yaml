@@ -1,0 +1,15 @@
+lockfileVersion: 5.4
+
+importers:
+
+  .:
+    specifiers: {}
+
+  packages/p1:
+    specifiers: {}
+
+  packages/p2:
+    specifiers:
+      p1: workspace:*
+    dependencies:
+      p1: link:../p1
